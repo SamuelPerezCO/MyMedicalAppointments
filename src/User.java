@@ -54,4 +54,8 @@ public class User {
         this.email = email;
     }
 
+    @Override
+    public String toString() {
+        return "User: " + name + ", Email: " + email + "\nAddress: " + address + ". Phone: "  + phoneNumber;
+    }
 }
