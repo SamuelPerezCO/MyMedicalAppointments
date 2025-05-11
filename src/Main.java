@@ -12,9 +12,10 @@ public class Main {
         myDoctor.addAvailableAppointment(new Date() , "10am");
         myDoctor.addAvailableAppointment(new Date() , "1 pm");
 
-        for (Doctor.AvailableAppointment aA: myDoctor.getAvailableAppointments()){
-            System.out.println(aA.getDate() + "  " + aA.getTime());
-        }
+        System.out.println(myDoctor);
+//        for (Doctor.AvailableAppointment aA: myDoctor.getAvailableAppointments()){
+//            System.out.println(aA.getDate() + "  " + aA.getTime());
+//        }
 
         Patient patient = new Patient("Alejandra" , "alejandra@email.com");
         System.out.println(patient);
