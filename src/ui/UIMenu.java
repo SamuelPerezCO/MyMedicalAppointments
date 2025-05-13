@@ -79,8 +79,8 @@ public class UIMenu {
                 for (Patient p: patients){
                     if (p.getEmail().equals(email)){
                         emailCorrect = true;
-                        patinetLogged = p;
-                        //showPatientMenu
+                        patientLogged = p;
+                        UIPatientMenu.showPatientMenu();
                     }
                 }
             }
